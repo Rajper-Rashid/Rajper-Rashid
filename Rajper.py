@@ -854,7 +854,7 @@ class Main:
 sys.stdout.write(
 			"\r [+]%s> /[CRACK]>%s -> [OK]:-%s - [CP]:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
-		for pw in pwx:
+		
 			pw = pw.lower()
 			ses = requests.Session()
 			headers = {
