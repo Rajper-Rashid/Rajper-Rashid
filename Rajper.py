@@ -426,7 +426,7 @@ class Main:
 		
 			
 		
-			time.sleep(3.0)
+			
 			os.system("clear")
 		print(logo)
 		print(" [+]𝗠𝗘𝗡𝗨  𝗠𝗘𝗧𝗛𝗢𝗗")
